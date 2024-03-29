@@ -1,7 +1,7 @@
 import { useState } from "react";
 
-const [search, setSearch] = useState("");
 function Search(props){
+    const [search, setSearch] = useState("");
     const onSearchChange = (event) =>{
         setSearch(event.target.value);
         props.onSearchChange(event.target.value)
@@ -14,4 +14,4 @@ function Search(props){
         </>
     )
 }
-export default Search
+export default Search;

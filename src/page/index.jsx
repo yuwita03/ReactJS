@@ -3,11 +3,11 @@ import Article from "../components/Article"
 import Search from "../components/Search"
 import { useState } from "react"
 function Homepage(){
-    const {posts, setPosts} = useState(postsData)
+    const [posts, setPosts] = useState(postsData);
+
     const onSearchChange = (value)=>{
         console.log(value);
-        const filteredPosts = postsData.filter(item => 
-            item.tittle.includes(value));
+        const filteredPosts = postsData.filter(item => item.tittle.includes(value));
         setPosts(filteredPosts);
     
     }
