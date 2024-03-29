@@ -1,0 +1,19 @@
+[
+    {
+        "tittle":"Tutorial Belajar ReactJS Lengkap",
+        "tags":["React", "Frontend"],
+        "date":"2003-01-01"
+    },
+    {
+        "tittle":"Meningkatkan Peforma di React JS",
+        "tags":["React", "Frontend"],
+        "date":"2003-01-02"
+    },
+    {
+        "tittle":"Cara Menggunakan Cakhra UI di react JS",
+        "tags":["React", "CSS"],
+        "date":"2003-01-03"
+    }
+]
+    
+    
